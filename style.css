@@ -50,8 +50,8 @@ h3 {
 }
 
 h2 {
-    color: rgba(3, 17, 141, 0.488);
-    font-size: 4rem;
+    color: rgba(2.5, 17, 141, 0.488);
+    font-size: clamp(3rem, 4vw, 4rem);
     display: flex;
     align-items: center;
     position: absolute;
@@ -134,8 +134,8 @@ button {
     flex-direction: coloum;
     justify-content: center;
     align-items: center;
-    border-radius: 90px;
+    border-radius: 70px;
     box-shadow: 7px 5px 15px rgb(0, 0, 0, 0.5);
     position: absolute;
-    bottom: 70px
+    bottom: clamp(40px, 4vh, 90px);
 }
