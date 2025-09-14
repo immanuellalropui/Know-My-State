@@ -1,4 +1,4 @@
-let kms = {};
+let package = {};
 
 fetch('package.json')
     .then(response => response.json())
