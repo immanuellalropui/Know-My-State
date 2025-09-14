@@ -71,13 +71,13 @@ h2 {
     justify-content: center;
     align-items: center;
     border-radius: 90px;
-    box-shadow: 7px 5px 15px rgb(173, 173, 173);
+    box-shadow: 7px 5px 15px rgb(48, 25, 25);
 
 }
 
 
 input {
-    font-size: 2rem;
+    font-size: clamp(20px, 2vw, 90px);
     height: 10vh;
     width: 50vw;
     border-radius: 90px;
@@ -137,5 +137,5 @@ button {
     border-radius: 70px;
     box-shadow: 7px 5px 15px rgb(0, 0, 0, 0.5);
     position: absolute;
-    bottom: clamp(40px, 4vh, 90px);
+    bottom: clamp(20px, 4vh, 90px);
 }
