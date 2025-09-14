@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+
+}
+
+* {
+    font-family: "Asimovian", sans-serif;
+
+}
+
+
+
+body {
+    background: radial-gradient(circle,
+            rgb(255, 255, 255) 20%, rgb(2, 0, 138) 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container3 {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 5px 15px rgb(173, 173, 173);
+    position: absolute;
+    top: 1px;
+}
+
+h3 {
+    color: rgb(3, 17, 141);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 2.2rem;
+    text-shadow: 7px 6px 10px rgb(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: rgba(3, 17, 141, 0.488);
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 8rem;
+    text-shadow: 7px 5px 9px rgb(0, 0, 0, 0.2);
+}
+
+.container1 {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.4;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    height: 10vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    box-shadow: 7px 5px 15px rgb(173, 173, 173);
+
+}
+
+
+input {
+    font-size: 2rem;
+    height: 10vh;
+    width: 50vw;
+    border-radius: 90px;
+    border: none;
+    outline: none;
+    display: flex;
+    text-align: center;
+
+}
+
+
+.container2 {
+    background-color: white;
+    opacity: 0.4;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    width: clamp(80px, 5vw, 300px);
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 1rem;
+    box-shadow: 7px 5px 15px rgb(0, 0, 0, 0.5);
+
+
+}
+
+button {
+    font-size: 1rem;
+    height: 3vh;
+    width: 5vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result {
+    font-size: clamp(1rem, 2.7vw, 1.7rem);
+    padding-right: 40px;
+    padding-left: 40px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    opacity: 0.2;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    height: 29vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: coloum;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    box-shadow: 7px 5px 15px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 70px
+}
